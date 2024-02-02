@@ -19,6 +19,7 @@
 
 ### Поддержка
 Я работаю над этим и другими проектами буквально за бесплатно, а выжить на зарплату в 10 000, когда ты студент-мехатроник проблематично, поэтому буду рад, если вы поддержите меня: **https://boosty.to/igorir3**
+Если у вас не доступна эта система, буду рад донату на WebMoney: https://pay.web.money/d/t4rp
 
 ## [ENG]
 
@@ -39,3 +40,4 @@ REMEMBER! That the final file should be located in an existing directory (Folder
 
 ### Support
 I'm working on this and other projects literally for free, and surviving on a salary of 10,000 when you're a mechatronics student is problematic, so I'd be glad if you'd support me: **https://boosty.to/igorir3**
+If this system is not available to you, I will be glad to donate to WebMoney: https://pay.web.money/d/t4rp
