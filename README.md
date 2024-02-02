@@ -17,6 +17,9 @@
 Также если вы впишите второй аргумент с файлом расширением обратным от первого, то этот файл будет использоваться как окончательный файл (файл вывода).
 ПОМНИТЕ! Что окончательный файл должен быть находиться в существующем каталоге (Папке).
 
+### Поддержка
+Я работаю над этим и другими проектами буквально за бесплатно, а выжить на зарплату в 10 000, когда ты студент-мехатроник проблематично, поэтому буду рад, если вы поддержите меня: **https://boosty.to/igorir3**
+
 ## [ENG]
 
 ### Installation
@@ -33,3 +36,6 @@ If you do not enter the second argument, the program will output a file named ou
 
 Also, if you enter the second argument with the file extension reversed from the first, then this file will be used as the final file (output file).
 REMEMBER! That the final file should be located in an existing directory (Folder).
+
+### Support
+I'm working on this and other projects literally for free, and surviving on a salary of 10,000 when you're a mechatronics student is problematic, so I'd be glad if you'd support me: **https://boosty.to/igorir3**
