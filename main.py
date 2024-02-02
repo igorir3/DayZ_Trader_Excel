@@ -37,15 +37,27 @@ if mode == "txttoxlsx":
     redFill = openpyxl.styles.PatternFill(start_color='ff6b6b',
                     end_color='ff6b6b',
                     fill_type='solid')
-
+    y = 1
     for line in lines:
+        print(f"{math.floor(y / (len(lines) / 100))}% ..... {y} | {len(lines)}                                                                                    ", end="\r")
+        y = y + 1
         line = line.replace(",", " ")
         splitLine = line.split()
         if len(splitLine) <= 1:
             continue 
+        elif splitLine[0][:2] == "//":
+            continue
+        elif splitLine[0] == "<CurrencyName>":
+            ws = outputFile.create_sheet(f"{splitLine[0]} {splitLine[1]}")
+        elif splitLine[0] == "<Currency>":
+            ws.cell(row=x, column=1, value=splitLine[1])
+            ws.cell(row=x, column=2, value=splitLine[2])
+            x = x + 1
         elif splitLine[0] == "<Trader>":
             nameofsheet = ""
             for pn in splitLine[1:]:
+                if pn == "//":
+                    break
                 nameofsheet = nameofsheet + pn + " "
             ws = outputFile.create_sheet(nameofsheet)
             x = 1
